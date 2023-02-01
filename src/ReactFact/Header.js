@@ -12,6 +12,8 @@ export default function Header() {
                     <li>Pricing</li>
                     <li>About</li>
                     <li>Contact</li>
+                    <li>Switch Button</li>
+
                 </ul>
             </header>
                 <h1 className="header1">
