@@ -1,16 +1,20 @@
-
 import React from "react"
-import Background from './DigitalBusCard/bg'
+import Header from "./ReactFact/Header"
+import Body from "./ReactFact/Body"
+import Footer from "./ReactFact/Footer"
+
+
 
 const App = () => {
     return(
         <div>
-                <Background />
+             <Header /> 
+             <Body />
+             <Footer />  
         </div>
     )
 }
 
 
-// ReactDOM.render(<FirstChallenge />,document.getElementById("root"))
 
 export default App

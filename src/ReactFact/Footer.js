@@ -1,11 +1,16 @@
-import React from 'react'
-import "../index.css"
+import React from "react";
+import "./mystyle.css"
 
 
 export default function Footer() {
     return(
-        <footer className="footer">
-            <small className="footer-center">(c) 2022 Fredrick Idemudia Develoment. All right reserved</small>
-        </footer>
+        <div className="footer-section">
+            <footer>
+                <small className="small-text">
+                    (c) 2022 Fredrick Idemudia's development. All right reserved.
+                </small>
+            </footer>
+        </div>
     )
+        
 }
