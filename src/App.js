@@ -1,20 +1,17 @@
-import React from "react"
-import Header from "./ReactFact/Header"
-import Body from "./ReactFact/Body"
-import Footer from "./ReactFact/Footer"
+import React, { Component } from "react"
+import Components from "./ReactFact/Components"
+import Header from "./ReactFact/Header";
+import Body from "./ReactFact/Body";
 
 
 
 const App = () => {
     return(
         <div>
-             <Header /> 
-             <Body />
-             <Footer />  
+            <Header />
+            
         </div>
     )
 }
-
-
 
 export default App

@@ -1,3 +1,16 @@
+#light {
+    background-color: white;
+    transition: 5s;
+    color: black
+}
+
+#dark {
+    background-color:rgb(175, 65, 175);
+    transition: 5s;
+    color:black
+}
+
+
 body {
     box-sizing: border-box;
     margin: 0em;
@@ -5,8 +18,16 @@ body {
     /* max-height:100%; */
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .header1{
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 1.2em;
     
@@ -16,19 +37,28 @@ body {
     font-family: 'Zilla Slab', serif;
   } */
 
-.nav-header{
+#light .nav-header{
     display: flex;
     justify-content:space-around;
     align-items: center;
     flex-direction: row;
     font-size: 0.7rem;
-    box-shadow: 5px 8px rgb(233, 233, 243);
+    box-shadow: 10px 1px rgb(233, 233, 243);
 
 }
 
+#dark .nav-header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0.7rem;
+    box-shadow: 10px 1px rgb(247, 224, 235);
+}
 .div-wrapper{
-    /* box-shadow: 5px 8px rgb(233, 233, 243); */
-    /* word-break: break-all; */
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
 }
 
 .nav-items{
@@ -42,9 +72,8 @@ body {
 .nav-items > li {
     list-style: none;
     padding-left: 4em;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight:500;
-    
 }
 
 .logo-size {
@@ -52,9 +81,12 @@ body {
     /* padding-top: 2rem; */
 }
 
+
+
+
 .main-list li {
     font-family: 'Zilla Slab', serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     ;
 }
 
@@ -77,5 +109,35 @@ body {
     justify-content: center;
     align-items: center;
     height: 80px;
+}
+
+
+@media only screen and (max-width: 648px){
+	/*Small smartphones [325px -> 425px]*/
+    .nav-items > li{
+        font-size: 0.8rem;
+    }
+
+    .logo-size{
+        max-width: 16px;
+    }
+
+    .header1{
+        font-size: 1.5rem;
+    }
+
+    .footer-section{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        height: 3%;
+        width: 100%;
+        background-color: rgb(2, 2, 2);
+        color:rgb(102, 101, 101);
+        font-size: 1.2rem;
+    
+    }
 }
 
