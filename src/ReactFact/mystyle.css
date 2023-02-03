@@ -43,7 +43,7 @@ body {
     align-items: center;
     flex-direction: row;
     font-size: 0.7rem;
-    box-shadow: 10px 1px rgb(233, 233, 243);
+    box-shadow: 10px 1px rgb(218, 216, 216);
 
 }
 
@@ -53,7 +53,7 @@ body {
     align-items: center;
     flex-direction: row;
     font-size: 0.7rem;
-    box-shadow: 10px 1px rgb(247, 224, 235);
+    box-shadow: 10px 1px rgb(241, 134, 188);
 }
 .div-wrapper{
     display: flex;
@@ -80,8 +80,6 @@ body {
     max-width: 60px;
     /* padding-top: 2rem; */
 }
-
-
 
 
 .main-list li {
